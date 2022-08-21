@@ -41,8 +41,11 @@ if select == "1" :
   elif number == '6' :
         num1 =float(input("Enter number 1 :"))
         num2 =float(input("Enter number 2 :"))
-        result = num1 //  num2
-        print("result = ",result)
+        if num2 == 0 :
+            print("error!!")
+        else :
+            result = num1 //  num2
+            print("result = ",result)
     
   elif number == '7' :
         num1 =float(input("Enter number 1 :"))
